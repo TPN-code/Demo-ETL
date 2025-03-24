@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Preload Script Extension",
+  "version": "1.0",
+  "description": "Executes JavaScript before page load",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service-worker": "serviceWorker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}
