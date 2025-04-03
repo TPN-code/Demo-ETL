@@ -11,4 +11,4 @@ document.getElementById("runScript").addEventListener("click", () => {
 function runInConsole() {
     console.log("%cHello from the Chrome Extension!", "color: blue; font-size: 16px; font-weight: bold;");
     alert("Console script executed! Check DevTools Console (F12).");
-}
+};
