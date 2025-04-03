@@ -1,0 +1,4 @@
+https://tailwindcss.com/docs/installation/tailwind-cli
+
+npm install @tailwindcss/cli
+npx @tailwindcss/cli
