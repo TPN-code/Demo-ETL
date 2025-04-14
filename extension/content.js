@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(domainList);
         document.querySelectorAll("#bGmlqc").forEach(sponsorLink => sponsorLink.remove()); //Sponsor Links
         document.querySelectorAll(".uEierd").forEach(sponsorLink => sponsorLink.remove()); //Sponsor Links
+        document.querySelectorAll(".mnr-c.sPmWM").forEach(buyingGuild => buyingGuild.remove()); //Sponsor Links
+        document.querySelectorAll(".cUnQKe").forEach(peopleAlsoAsk => peopleAlsoAsk.remove()); //peopleAlsoAsk
+        document.querySelectorAll(".Ww4FFb.vt6azd[data-hveid='CFcQAA']").forEach(exploreBrands => exploreBrands.remove()); //exploreBrands
+        document.querySelectorAll(".Ww4FFb.vt6azd[data-hveid='CCYQAA']").forEach(peopleAlsoBuyFrom => peopleAlsoBuyFrom.remove()); //peopleAlsoBuyFrom
+        document.querySelectorAll(".oIk2Cb").forEach(peopleAlsoSearchFor => peopleAlsoSearchFor.remove()); //peopleAlsoSearchFor
+
         document.querySelectorAll('g-card[class="T98FId"]').forEach( AdditionlCatergories => AdditionlCatergories.remove() ); // Additional catergories
         document.querySelectorAll('h3.LC20lb.MBeuO.DKV0Md').forEach( function(header) {header.append(' 💀')} ); // for adding website rating
         document.querySelectorAll('.Yt787').forEach( function(header) {header.append(' 💀')} ); //images headers
