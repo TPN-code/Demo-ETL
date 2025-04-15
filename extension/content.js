@@ -16,12 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
             };
         });
         console.log(domainList);
-        document.querySelectorAll("#bGmlqc").forEach(sponsorLink => sponsorLink.remove()); //Sponsor Links
-        document.querySelectorAll(".uEierd").forEach(sponsorLink => sponsorLink.remove()); //Sponsor Links
-        document.querySelectorAll(".mnr-c.sPmWM").forEach(buyingGuild => buyingGuild.remove()); //Sponsor Links
+        document.querySelectorAll("#bGmlqc").forEach(sponsorLink => sponsorLink.remove()); //sponsorLinks
+        document.querySelectorAll(".uEierd").forEach(sponsorLink => sponsorLink.remove()); //sponsorLinks
+        document.querySelectorAll("[data-hveid='uEierd']").forEach(fastPickupDelivery => fastPickupDelivery.remove()); //fastPickupDelivery
+        document.querySelectorAll(".mnr-c.sPmWM").forEach(buyingGuild => buyingGuild.remove()); //buyingGuild
         document.querySelectorAll(".cUnQKe").forEach(peopleAlsoAsk => peopleAlsoAsk.remove()); //peopleAlsoAsk
-        document.querySelectorAll(".Ww4FFb.vt6azd[data-hveid='CFcQAA']").forEach(exploreBrands => exploreBrands.remove()); //exploreBrands
-        document.querySelectorAll(".Ww4FFb.vt6azd[data-hveid='CCYQAA']").forEach(peopleAlsoBuyFrom => peopleAlsoBuyFrom.remove()); //peopleAlsoBuyFrom
+        document.querySelectorAll("[data-hveid='CCYQAA']").forEach(exploreBrands => exploreBrands.remove()); //exploreBrands
+        document.querySelectorAll("[data-hveid='CFEQAA']").forEach(peopleAlsoBuyFrom => peopleAlsoBuyFrom.remove()); //peopleAlsoBuyFrom
         document.querySelectorAll(".oIk2Cb").forEach(peopleAlsoSearchFor => peopleAlsoSearchFor.remove()); //peopleAlsoSearchFor
 
         document.querySelectorAll('g-card[class="T98FId"]').forEach( AdditionlCatergories => AdditionlCatergories.remove() ); // Additional catergories
